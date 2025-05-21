@@ -3,43 +3,92 @@
 }
 
 body {
-    background-color: hsl(44, 81%, 61%);
+    background-color: hsl(47, 88%, 63%);
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     height: 100vh;
     text-align: center;
+    font-family: "outfit", sans-serif;
 }
 
 .box{
-    display: flex;
-    background-color: whitesmoke;
-    padding: 0;
-    margin: 0;
-    height: 499px;
-    width: 400px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 17px;
+    padding: 20px;
+    box-shadow: 9px 9px 1px rgba(0, 0, 0, 0.9);
+    border: 1px solid black;
+
 }
 
 .box img{
+    border-radius: 15px;
+}
+
+.learn {
+    margin-top: 17px;
+    background-color: hsl(47, 88%, 63%);
     display: flex;
-    width: 288px;
-    height: 288px;
-    margin: 16px;
-    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    width: 70px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+   
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
     
-    
+}
+
+.pub{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    font-size: 14px;
     
     
 }
 
-.text {
-    margin-top: 8px;
-    margin-bottom: 40px;
+.titulo{
     display: flex;
-    flex-direction: column;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+
+    
+}
+
+.text1{
+    display: flex;
+    text-align:left;
+    margin-bottom: 20px;
+    color: hsl(0, 0%, 42%);
+    font-size: 16px;
+    
+    
+
+}
+
+.img{
+    display: flex;
     align-items: center;
-    gap: 16px;
+    ;
+    
+}
+
+.img img{
+    width: 30px;
+    
+}
+
+
+.img p{
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    
 }
